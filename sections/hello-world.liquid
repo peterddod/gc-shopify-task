@@ -300,7 +300,7 @@ class ProductSlider {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-Shopify-Storefront-Access-Token': '4d02022df9fffcd21dfcb8ba6097b5e1'
+          'X-Shopify-Storefront-Access-Token': '{{ settings.storefront_access_token }}'
         },
         body: JSON.stringify({ query, variables })
       });
