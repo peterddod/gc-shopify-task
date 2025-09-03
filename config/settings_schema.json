@@ -17,9 +17,9 @@
       {
         "type": "font_picker",
         "id": "type_primary_font",
-        "default": "work_sans_n4",
+        "default": "merriweather_n4",
         "label": "t:general.primary"
-      },
+      }
     ]
   },
   {
@@ -77,6 +77,16 @@
         "unit": "px",
         "label": "t:labels.input_corner_radius",
         "default": 4
+      }
+    ]
+  },
+  {
+    "name": "API Settings",
+    "settings": [
+      {
+        "type": "text",
+        "id": "storefront_access_token",
+        "label": "Storefront API Access Token"
       }
     ]
   }
